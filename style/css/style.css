@@ -32,7 +32,7 @@ body {
     display: block;
     margin: 120px auto 80px auto; }
   body #propos {
-    height: 616px;
+    height: 600px;
     background: #EEE6DC;
     top: 400px; }
     body #propos .me {
@@ -66,15 +66,32 @@ body {
         border-radius: 10px;
         padding: 10px 25px;
         letter-spacing: 1px;
-        font-weight: bold; }
+        font-weight: bolder; }
       body #propos .content a:hover {
         transition: all 0.3s ease;
         background: #861657;
         color: white; }
   body #projet {
-    height: 800px;
+    height: 740px;
     background: #1C5983;
     display: block;
-    margin-top: -16px; }
+    margin-top: -23px; }
+    body #projet .content2 {
+      margin: 0 auto;
+      display: block;
+      width: 500px; }
+      body #projet .content2 h1 {
+        letter-spacing: 6px;
+        font-size: 34px;
+        padding-top: 80px;
+        text-align: center;
+        color: white;
+        font-weight: lighter; }
+      body #projet .content2 hr {
+        border: solid 2px #EEE6DC;
+        width: 497px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        padding-top: 0; }
 
 /*# sourceMappingURL=style.css.map */
