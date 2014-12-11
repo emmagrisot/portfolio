@@ -1,4 +1,80 @@
 body {
-  font-family: "Lobster", cursive; }
+  background: url(../../img/bg-5.png) fixed;
+  background-size: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif; }
+  body #first ul {
+    position: absolute;
+    top: 0;
+    right: 20px; }
+    body #first ul li {
+      color: white;
+      list-style-type: none;
+      display: inline-block;
+      padding: 20px 40px;
+      font-size: 18px; }
+      body #first ul li a {
+        text-decoration: none;
+        color: white;
+        transition: all 0.5s ease; }
+      body #first ul li a:hover {
+        transition: all 0.3s ease;
+        color: #F4D9FF;
+        border-bottom: 2.5px solid #F4D9FF;
+        padding-bottom: 5px; }
+  body #first .logo {
+    width: 30%;
+    display: block;
+    margin: 80px auto; }
+  body #first .fleche {
+    width: 50px;
+    display: block;
+    margin: 120px auto 80px auto; }
+  body #propos {
+    height: 616px;
+    background: #EEE6DC;
+    top: 400px; }
+    body #propos .me {
+      width: 450px;
+      float: right;
+      position: absolute;
+      right: 0; }
+    body #propos .content {
+      padding: 100px 0 0 180px; }
+      body #propos .content h1 {
+        letter-spacing: 6px;
+        font-size: 34px;
+        padding-left: 2px; }
+      body #propos .content hr {
+        border: solid 2px #861657;
+        width: 497px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        padding-top: 0; }
+      body #propos .content p {
+        letter-spacing: 1px;
+        width: 500px;
+        text-align: justify;
+        line-height: 23px;
+        margin-bottom: 70px; }
+      body #propos .content a {
+        text-decoration: none;
+        color: #861657;
+        transition: all 0.5s ease;
+        border: 2px solid #861657;
+        border-radius: 10px;
+        padding: 10px 25px;
+        letter-spacing: 1px;
+        font-weight: bold; }
+      body #propos .content a:hover {
+        transition: all 0.3s ease;
+        background: #861657;
+        color: white; }
+  body #projet {
+    height: 800px;
+    background: #1C5983;
+    display: block;
+    margin-top: -16px; }
 
 /*# sourceMappingURL=style.css.map */
