@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 	<head>
 		<title>Book</title>
 		<link rel="stylesheet" type="text/css" href="style/css/style.css">
@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="style/css/style_common.css" />
         <link rel="stylesheet" type="text/css" href="style/css/style1.css" />
 		<script src="js/jquery.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/localscroll/jquery.localscroll.js"></script>
+		<!--script type="text/javascript" src="js/localscroll/jquery.localscroll.js"></script-->
 		<script type="text/javascript" src="js/localscroll/jquery.scrollTo.js"></script>
     	<script type="text/javascript" src="js/lancement.js"></script>
 		<script>
@@ -22,23 +22,27 @@
 
 		<script src="index_videolb/jquery.tools.min.js" type="text/javascript"></script>
 		<script src="index_videolb/videolightbox.js" type="text/javascript"></script>
-	
+		
+
+
+	<!-- Start VideoLightBox.com HEAD section -->
 		<link rel="stylesheet" href="index_videolb/videolightbox.css" type="text/css" />
 		
 			<link rel="stylesheet" type="text/css" href="index_videolb/overlay-minimal.css"/>
+			<!--script src="index_videolb/jquery.js" type="text/javascript"></script-->
 			<script src="index_videolb/swfobject.js" type="text/javascript"></script>
+		<!-- End VideoLightBox.com HEAD section --><!-- Start VideoLightBox.com HEAD section -->
 		<link rel="stylesheet" href="index_videolb/videolightbox.css" type="text/css" />
 		
 			<link rel="stylesheet" type="text/css" href="index_videolb/overlay-minimal.css"/>
-		<link rel="stylesheet" href="index_videolb/videolightbox.css" type="text/css" />
-		
-			<link rel="stylesheet" type="text/css" href="index_videolb/overlay-minimal.css"/>
-	</head>
+			<!--script src="index_videolb/jquery.js" type="text/javascript"></script-->
+			<!--script src="index_videolb/swfobject.js" type="text/javascript"></script-->
+		<!-- End VideoLightBox.com HEAD section --></head>
 	<body>
 		<div id="first">
 			<ul>
 				<li><a href="#propos">A PROPOS</a></li>
-				<li><a href="#projet">TRAVAUX</a></li>
+				<li><a href="#projet">PROJETS</a></li>
 			</ul>
 			<img class="logo" src="img/logo.png">
 			<a href="#propos"><img class="fleche" src="img/fleche.png"></a>
@@ -57,7 +61,7 @@
 		</div>
 		<div id="projet">
 			<div class="content2">
-				<h1> MES TRAVAUX</h1>
+				<h1> MES PROJETS</h1>
 				<hr>
 			</div>
 			<div class="container">
@@ -66,34 +70,41 @@
 	                    <img src="img/echo_projet.png" />
 	                    <div class="mask">
 	                        <h2>Projet etudiant "Echo"</h2>
-	                        <p>Mise en place d'un service de création de contenu éphémère, à partager sur les réseaux sociaux.</p>
-	                        <a href="img/Echo-desktop.pdf" target="blank" title="echo" class="info">Voir plus</a>
+	                        <p>Echo est un service de création de contenu éphémère, à partager sur les réseaux sociaux.</p>
+	                        <a href="img/Echo-desktop.pdf" target="blank" class="info">Voir plus</a>
 	                    </div>
 	                </div>  
-
 	                <div class="view view-first">
-	                    <img src="img/projet-nike.png" />
+	                    <img src="img/echo_projet.png" />
 	                    <div class="mask">
-	                        <h2>Projet publicité</h2>
-	                        <p>Création d'une vidéo de publicité pour le produit de notre choix, dans le cadre d'un cours (Adobe Premiere).</p>
-	                        <a class="info" href="http://vimeo.com/moogaloop.swf?clip_id=98268715&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="Publicité Nike" target="blank"><span></span>Voir plus</a>
-	                    </div>
-	                </div>   
+	                        <h2>Projet 2</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="https://www.youtube.com/watch?v=dz24DgBUQbc" rel="vidbox" title="projetnike" class="info">Voir plus</a>
 
-	                <div class="view view-first">
-	                    <img src="img/affiche-mini.png" />
-	                    <div class="mask">
-	                        <h2>Projet affiche MMI</h2>
-	                        <p>Création d'une affiche promotionnelle sur le DUT MMI dans le cadre d'un cours d'infographie (Adobe InDesign).</p>
-	                        <a href="img/affiche-mmi.pdf" target="blank" title="affiche-mmi" class="info">Voir plus</a>
+
 	                    </div>
 	                </div> 
+	                <div class="view view-first">
+	                    <img src="img/echo_projet.png" />
+	                    <div class="mask">
+	                        <h2>Projet 3</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="#" class="info">Voir plus</a>
+	                    </div>
+	                </div>   
 	            </div>
-	        </div>
-	        <div class="content3">
-				<h1>PHOTOGRAPHIES</h1>
-				<hr>
+	          
+	      <!-- Start VideoLightBox.com BODY section -->
+		<div class="videogallery">
+			<a class="voverlay" href="http://vimeo.com/moogaloop.swf?clip_id=98268715&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="Publicité Nike" target="blank"><img src="index_videolb/thumbnails/0.png" alt="Publicité Nike" /><span></span></a><span class="videolb"><a href="http://videolightbox.com">Videos in Lightbox</a> by VideoLightBox.com v3.0m</span>
 			</div>
+			
+		<!-- End VideoLightBox.com BODY section --><!-- Start VideoLightBox.com BODY section -->
+	<div class="videogallery">
+	<a class="voverlay" href="http://vimeo.com/moogaloop.swf?clip_id=98268715&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="Publicité Nike"><img src="index_videolb/thumbnails/0.png" alt="Publicité Nike" /><span></span></a><span class="videolb"><a href="http://videolightbox.com">Videos in Lightbox</a> by VideoLightBox.com v3.0m</span>
+	</div>
+	<!-- End VideoLightBox.com BODY section -->  </div>
 		</div>
+
 	</body>
 </html>
