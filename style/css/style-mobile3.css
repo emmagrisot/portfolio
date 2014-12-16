@@ -1,5 +1,5 @@
 body #projet {
-  height: 1555px; }
+  height: 1970px; }
   body #projet .container {
     width: 342px; }
   body #projet .photos {
@@ -32,7 +32,6 @@ body #propos .content p {
   line-height: 23px;
   margin-bottom: 70px; }
 body #projet {
-  height: 1500px;
   display: block;
   margin-top: -23px; }
   body #projet .content2, body #projet .content3 {

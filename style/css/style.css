@@ -72,10 +72,12 @@ body {
         background: #861657;
         color: white; }
   body #projet {
-    height: 1500px;
+    height: 1700px;
     background: #1C5983;
     display: block;
     margin-top: -23px; }
+    body #projet .main {
+      padding-bottom: 200px; }
     body #projet .content2, body #projet .content3 {
       margin: 0 auto;
       display: block;
