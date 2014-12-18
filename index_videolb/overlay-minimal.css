@@ -23,12 +23,10 @@
 	height:44px;
 	width:44px;
 	opacity:0.8; 
-	transition: all 0.3s ease;
 }
 
 #voverlay .close:hover {
-	opacity:1;
-	transition: all 0.3s ease; 
+	opacity:1; 
 }
 
 #voverlay .vcontainer{
