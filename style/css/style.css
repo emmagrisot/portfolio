@@ -7,12 +7,12 @@ body {
   body #first ul {
     position: absolute;
     top: 0;
-    right: 20px; }
+    right: 8%; }
     body #first ul li {
       color: white;
       list-style-type: none;
       display: inline-block;
-      padding: 20px 40px;
+      padding: 20px 20px;
       font-size: 18px; }
       body #first ul li a {
         text-decoration: none;
@@ -97,11 +97,11 @@ body {
         padding-top: 0; }
     body #projet .content3 {
       padding-top: 368px; }
-    body #projet .photos {
+    body #projet #photos {
       width: 800px;
       display: block;
       margin: 0 auto; }
-      body #projet .photos img {
+      body #projet #photos img {
         width: 47%;
         padding: 10px; }
     body #projet .container {
