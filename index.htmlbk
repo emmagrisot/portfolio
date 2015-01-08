@@ -34,7 +34,7 @@
 		<link href="style/css/lightbox.css" rel="stylesheet" />
 		<script type="text/javascript" src="js/localscroll/jquery.localscroll.js"></script>
 		<script type="text/javascript" src="js/localscroll/jquery.scrollTo.js"></script>
-		<!--<!--script src="js/jquery.js" type="text/javascript"></script-->-->
+		<!--<script src="js/jquery.js" type="text/javascript"></script>-->
 		<script type="text/javascript" src="js/lancement.js"></script>
 
 
@@ -123,18 +123,9 @@
 	               </div> 
 
 
-	                <div class="view view-first">
-                   		<img src="img/teaser-mini.png" />
-                   		<div class="mask">
-	                       <h2>Vidéo Motion Design</h2>
-	                       <p>Vidéo en Motion Design pour le teaser du projet étudiant Echo (Adobe After Effect).</p>
-	                       <a class="info" href="index_videolb/vdbplayer.swf?volume=100&url=video/teaser-musique.mp4" title="teaser-musique" target="blank"><span></span>Voir plus</a>
-	                   </div>
-	               </div>
 	            </div>
 	        </div>
-	
- 		<div class="content3">
+	        <div class="content3">
 				<h1>PHOTOGRAPHIES</h1>
 				<hr>
 			</div>
