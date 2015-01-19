@@ -1,13 +1,13 @@
 body #projet {
   height: 2500px; }
-  body #projet .photos {
+  body #projet #photos {
     width: 420px;
     display: block;
     margin: 0 auto; }
-    body #projet .photos img {
+    body #projet #photos img {
       width: 97%;
       padding: 10px; }
-    body #projet .photos .hid {
+    body #projet #photos .hid {
       display: none; }
   body #projet .block-text {
     margin-top: 0px;
