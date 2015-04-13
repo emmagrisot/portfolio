@@ -81,7 +81,7 @@
 
 			var doc = (elem.contentWindow || elem).document || elem.ownerDocument || elem;
 			
-			return $.support.safari || doc.compatMode == 'BackCompat' ?
+			return $.browser.safari || doc.compatMode == 'BackCompat' ?
 				doc.body : 
 				doc.documentElement;
 		});
